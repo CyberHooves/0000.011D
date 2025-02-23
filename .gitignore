@@ -1,0 +1,8 @@
+# no need to include the backups directory.
+*-backups
+
+# ...or the lock files.
+*.lck
+
+# ...or this cache file.
+fp-info-cache
