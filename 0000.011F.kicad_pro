@@ -216,6 +216,10 @@
         {
           "diameter": 1.2,
           "drill": 0.6
+        },
+        {
+          "diameter": 1.6,
+          "drill": 0.8
         }
       ],
       "zones_allow_external_fillets": false
@@ -607,10 +611,6 @@
       "Input stage CH2"
     ],
     [
-      "dad767c1-e6fb-4d93-9f04-a844a41aade8",
-      "Mid highpass CH1"
-    ],
-    [
       "101e6d5a-6bfb-428c-a623-d2d07d7da0a9",
       "Sub highpass CH1"
     ],
@@ -619,20 +619,12 @@
       "Sub highpass CH2"
     ],
     [
-      "ec5acb55-f618-4552-ba41-a05c266f1599",
-      "Mid lowpass CH1"
-    ],
-    [
-      "7f3a0115-7744-4fcf-9226-64673efb7661",
-      "Mid lowpass CH2"
-    ],
-    [
       "4380e0bb-b615-4110-8174-cf759752ea14",
       "Sub lowpass1"
     ],
     [
-      "9ca65e30-de91-4c2c-bafd-fc3a3efbe8d9",
-      "Mid highpass CH2"
+      "00c81517-3317-4e9f-be58-654996639274",
+      "Pot board"
     ],
     [
       "4ab37fa3-7b4c-4966-b382-bcb8a0cde8c0",

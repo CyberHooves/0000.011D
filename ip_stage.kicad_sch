@@ -262,6 +262,236 @@
 				)
 			)
 		)
+		(symbol "Connector_Audio:NC3FAH1"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NC3FAH1"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.neutrik.com/en/product/nc3fah1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "A Series, 3 pole female XLR receptacle, grounding: mating connector shell to pin1 and front panel, horizontal PCB mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "xlr connector neutrik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*XLR*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NC3FAH1_0_1"
+				(circle
+					(center -3.556 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.556)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 3.556 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at -3.556 1.778 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+							(bold yes)
+						)
+					)
+				)
+				(text "2"
+					(at 3.556 1.778 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+							(bold yes)
+						)
+					)
+				)
+				(text "3"
+					(at 0 -1.778 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+							(bold yes)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -1073,22 +1303,28 @@
 		(uuid "808c8488-4657-4931-b7e8-178675c00dfc")
 	)
 	(junction
-		(at 158.75 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81e96d6f-38f1-45f3-bada-323b924343db")
-	)
-	(junction
 		(at 134.62 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "985e7ad2-01b2-4742-8d24-c3f2cc762fd9")
 	)
 	(junction
+		(at 72.39 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c2e9778-4eb5-4b6e-97c2-b1b616114375")
+	)
+	(junction
 		(at 124.46 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a169ca61-e0fa-4b38-93d0-86939dd40e95")
+	)
+	(junction
+		(at 72.39 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a461a81c-46fb-4830-8de0-abe85d69c869")
 	)
 	(junction
 		(at 134.62 63.5)
@@ -1123,6 +1359,16 @@
 			(type default)
 		)
 		(uuid "00868b81-4099-47e8-b13a-acd8690b0e77")
+	)
+	(wire
+		(pts
+			(xy 45.72 73.66) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d220ac-3c5c-44a8-9f2c-9ac02b8b9add")
 	)
 	(wire
 		(pts
@@ -1356,13 +1602,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 71.12) (xy 152.4 63.5)
+			(xy 72.39 53.34) (xy 54.61 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a86d3e4-1da2-41f1-b433-ae97735867f9")
+		(uuid "4866567a-a4df-46db-a81a-d3ebeff46b07")
 	)
 	(wire
 		(pts
@@ -1396,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 85.09) (xy 158.75 83.82)
+			(xy 158.75 83.82) (xy 158.75 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1426,16 +1672,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 152.4 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1f7223-3a05-46c8-a102-108e23ef3a73")
-	)
-	(wire
-		(pts
 			(xy 179.07 71.12) (xy 177.8 71.12)
 		)
 		(stroke
@@ -1443,6 +1679,16 @@
 			(type default)
 		)
 		(uuid "5d5984fc-1abf-4d99-86d2-7f32fbff512b")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed974dc-4803-4139-83e6-440a6efccf42")
 	)
 	(wire
 		(pts
@@ -1506,16 +1752,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 158.75 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d74f7d0-a855-48f5-a0ec-85ec37feded1")
-	)
-	(wire
-		(pts
 			(xy 113.03 114.3) (xy 106.68 114.3)
 		)
 		(stroke
@@ -1533,16 +1769,6 @@
 			(type default)
 		)
 		(uuid "6eb80e9d-638a-4354-8351-8557a73dc03e")
-	)
-	(wire
-		(pts
-			(xy 158.75 85.09) (xy 158.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "758dbded-1740-4219-ad5f-416a697cb901")
 	)
 	(wire
 		(pts
@@ -1596,6 +1822,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 53.34) (xy 54.61 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf4aa29-42e7-4228-a773-d5b4a140dd41")
+	)
+	(wire
+		(pts
 			(xy 113.03 124.46) (xy 124.46 124.46)
 		)
 		(stroke
@@ -1613,6 +1849,16 @@
 			(type default)
 		)
 		(uuid "a3d075d4-7c15-4488-9c01-84ac6286182e")
+	)
+	(wire
+		(pts
+			(xy 45.72 74.93) (xy 45.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8802c13-9c5b-4604-9982-02dcb8d711ac")
 	)
 	(wire
 		(pts
@@ -1884,6 +2130,28 @@
 			(justify left)
 		)
 		(uuid "1e6deec0-224b-482d-86d2-8a43fa753e61")
+	)
+	(hierarchical_label "POTH"
+		(shape output)
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bce30e33-14f9-413e-a56d-5b186150138f")
+	)
+	(hierarchical_label "POTW"
+		(shape input)
+		(at 152.4 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcf1f1c3-3d82-4bdb-9e9d-d402aa4fad73")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2290,7 +2558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4"
 			(at 105.41 72.6948 0)
 			(effects
 				(font
@@ -2897,28 +3165,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "085dd9b6-f48d-4d4a-8333-c6ef5fa87275")
+			(uuid "085dd9b6-f48d-4d4a-8333-c6ef5fa87276")
 		)
 		(pin "7"
-			(uuid "2de16050-39be-47f6-ae98-b59e207e80e3")
+			(uuid "2de16050-39be-47f6-ae98-b59e207e80e4")
 		)
 		(pin "4"
-			(uuid "c22bf7f6-92ce-4cd0-8b49-b745ef1e041c")
+			(uuid "c22bf7f6-92ce-4cd0-8b49-b745ef1e041d")
 		)
 		(pin "2"
-			(uuid "303f45de-c84a-44f8-9a76-894be99daf6d")
+			(uuid "303f45de-c84a-44f8-9a76-894be99daf6e")
 		)
 		(pin "8"
-			(uuid "0e60f109-75bb-41b1-b1a6-ffd8df1a02da")
+			(uuid "0e60f109-75bb-41b1-b1a6-ffd8df1a02db")
 		)
 		(pin "3"
-			(uuid "c681985f-13f4-44d3-b457-2a8bc5060e74")
+			(uuid "c681985f-13f4-44d3-b457-2a8bc5060e75")
 		)
 		(pin "5"
-			(uuid "44e6321b-558b-4871-aab3-151cd751cdf0")
+			(uuid "44e6321b-558b-4871-aab3-151cd751cdf1")
 		)
 		(pin "1"
-			(uuid "32488782-4d66-41a8-84c9-fa90ce7a6639")
+			(uuid "32488782-4d66-41a8-84c9-fa90ce7a663a")
 		)
 		(instances
 			(project ""
@@ -2928,6 +3196,75 @@
 				)
 				(path "/73c76ae1-0f6d-4072-b1f6-02bc5875bb36/f110ea61-3f24-4cb4-b866-3cf7c5a9b206"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8835cf3d-a644-45b1-a8c8-aec963fb9f3e")
+		(property "Reference" "#PWR7"
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "299bb9a8-11f7-4cf8-9cd7-70a94f16e068")
+		)
+		(instances
+			(project "0000.011D"
+				(path "/73c76ae1-0f6d-4072-b1f6-02bc5875bb36/18961242-887b-44bf-99d0-5f479ce4a18f"
+					(reference "#PWR7")
+					(unit 1)
+				)
+				(path "/73c76ae1-0f6d-4072-b1f6-02bc5875bb36/f110ea61-3f24-4cb4-b866-3cf7c5a9b206"
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -3102,7 +3439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4"
 			(at 105.41 52.3748 0)
 			(effects
 				(font
@@ -3274,28 +3611,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "085dd9b6-f48d-4d4a-8333-c6ef5fa87275")
+			(uuid "085dd9b6-f48d-4d4a-8333-c6ef5fa87277")
 		)
 		(pin "7"
-			(uuid "2de16050-39be-47f6-ae98-b59e207e80e3")
+			(uuid "2de16050-39be-47f6-ae98-b59e207e80e5")
 		)
 		(pin "4"
-			(uuid "c22bf7f6-92ce-4cd0-8b49-b745ef1e041c")
+			(uuid "c22bf7f6-92ce-4cd0-8b49-b745ef1e041e")
 		)
 		(pin "2"
-			(uuid "303f45de-c84a-44f8-9a76-894be99daf6d")
+			(uuid "303f45de-c84a-44f8-9a76-894be99daf6f")
 		)
 		(pin "8"
-			(uuid "0e60f109-75bb-41b1-b1a6-ffd8df1a02da")
+			(uuid "0e60f109-75bb-41b1-b1a6-ffd8df1a02dc")
 		)
 		(pin "3"
-			(uuid "c681985f-13f4-44d3-b457-2a8bc5060e74")
+			(uuid "c681985f-13f4-44d3-b457-2a8bc5060e76")
 		)
 		(pin "5"
-			(uuid "44e6321b-558b-4871-aab3-151cd751cdf0")
+			(uuid "44e6321b-558b-4871-aab3-151cd751cdf2")
 		)
 		(pin "1"
-			(uuid "32488782-4d66-41a8-84c9-fa90ce7a6639")
+			(uuid "32488782-4d66-41a8-84c9-fa90ce7a663b")
 		)
 		(instances
 			(project ""
@@ -3380,44 +3717,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 147.32 73.66 0)
-		(mirror y)
+		(lib_id "Connector_Audio:NC3FAH1")
+		(at 54.61 73.66 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7c9bd4d-d5d3-4f86-8f54-2209137f22d8")
-		(property "Reference" "J11"
-			(at 144.78 72.3899 0)
+		(uuid "a6c88dc0-c1f8-4c23-8f80-f19de9c93e97")
+		(property "Reference" "J6"
+			(at 54.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "XH"
-			(at 144.78 74.9299 0)
+		(property "Value" "NC3FAH1"
+			(at 54.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical"
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 73.66 0)
+		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1_Horizontal"
+			(at 54.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,8 +3751,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 147.32 73.66 0)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nc3fah1"
+			(at 54.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,23 +3760,32 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "07f56a42-3262-4195-a96d-35b6d125fd36")
+		(property "Description" "A Series, 3 pole female XLR receptacle, grounding: mating connector shell to pin1 and front panel, horizontal PCB mount"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "86ad17b3-d181-4ae7-8e26-01f8a936a2d1")
+			(uuid "a237a5fb-a761-400c-b740-01e6cab9b1ee")
 		)
 		(pin "1"
-			(uuid "1509033d-a489-4067-9219-9d9ef3239f95")
+			(uuid "9d5fb12a-8d65-459d-aa98-9f5879bc6741")
+		)
+		(pin "2"
+			(uuid "a65934b0-ea47-46a6-8495-6c793cd601db")
 		)
 		(instances
-			(project "0000.011D"
+			(project ""
 				(path "/73c76ae1-0f6d-4072-b1f6-02bc5875bb36/18961242-887b-44bf-99d0-5f479ce4a18f"
-					(reference "J11")
+					(reference "J6")
 					(unit 1)
 				)
 				(path "/73c76ae1-0f6d-4072-b1f6-02bc5875bb36/f110ea61-3f24-4cb4-b866-3cf7c5a9b206"
-					(reference "J13")
+					(reference "J8")
 					(unit 1)
 				)
 			)
